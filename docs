@@ -1,0 +1,38 @@
+# Setup Guide – Emotion Detection CNN
+
+## Requirements
+- Python 3.8+
+- Webcam
+- Windows / Linux
+
+## Installation
+```bash
+pip install -r requirements.txt
+
+  
+docs/data_flow.md
+
+  # Data Flow
+
+Dataset Images
+→ Image Preprocessing
+→ CNN Training
+→ Model Saved (.h5)
+→ Webcam Input
+→ Face Detection
+→ Emotion Prediction
+→ Display Result
+
+  docs/block_diagram.md
+
+  # Block Diagram
+
+Camera
+  ↓
+Face Detection (OpenCV)
+  ↓
+CNN Model
+  ↓
+Emotion Classification
+  ↓
+Display Output
