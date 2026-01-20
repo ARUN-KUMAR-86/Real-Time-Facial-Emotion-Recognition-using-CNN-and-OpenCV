@@ -14,3 +14,6 @@ Dataset → CNN Training → Model Saved → Webcam Emotion Detection
 ```bash
 pip install -r requirements.txt
 python src/emotion_detection.py
+
+## Test and train datawill be get in
+https://www.kaggle.com/datasets/pankaj4321/fer-2013-facial-expression-dataset
