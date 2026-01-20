@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.vscode/
+.idea/
+
+# Model files (optional – large)
+models/*.h5
+
+# Dataset images (recommended for privacy)
+dataset/*
+!dataset/README.md
